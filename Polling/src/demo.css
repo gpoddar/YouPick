@@ -1,0 +1,121 @@
+/* default styles for the demo pages. */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.demo-wrapper,
+.demo-options {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.demo-wrapper {
+	margin: 0 auto;
+	width: 450px;
+	min-height: 100%;
+	
+}
+
+.demo-options {
+	padding: 20px;
+	width: 100%;
+	min-width: 350px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.demo-options > label {
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.demo-options > label > select,
+.demo-options > label > input {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 14px;
+	vertical-align: middle;
+}
+.demo-options > label > input[type="checkbox"],
+.demo-options > label > input[type="radio"] {
+	vertical-align: text-bottom;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+}
+
+div.answers{
+	
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+div.answerbox {
+margin:0 1% 1% 0;
+float:left;
+clear:none;
+width:49%;
+height:100px;
+border:2px solid #808080;
+}
+
+#outer {
+    width: 8px;
+    height: 75px;
+  text-align:center;
+    overflow: hidden;
+    position: relative; 
+     padding-left:52%; 
+  
+    
+}
+
+#inner, #inner div {
+    width: 30%;
+    overflow: hidden;
+    left: 90%;
+    position: absolute;
+    text-align:center;
+    z-index:2;
+}
+
+#inner {
+    
+    border-top-width: 0;
+    
+    
+    bottom: 0;
+    height: 0%;
+}
+
+#inner div {
+    border: 2px solid green;
+    border-bottom-width: 0;
+   
+    
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+#value {
+  text-align:center;
+  color:white;
+  opacity:0.0;
+}
+
+#overlay{
+	background-color:grey;
+	opacity:0.0;
+	z-index:-2;
+}
+
+
+
+
+

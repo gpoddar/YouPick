@@ -1,0 +1,91 @@
+div.answers{
+	
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+div.answerbox {
+margin:0 1% 1% 0;
+float:left;
+clear:none;
+width:49%;
+height:100px;
+border:1px solid #000;
+}
+
+#outer {
+    width: 100%;
+    height: 100%;
+  text-align:center;
+    overflow: hidden;
+    position: relative; 
+     padding-left:52%; 
+     z-index:20;
+  
+    
+}
+
+#inner, #inner div {
+    width: 10px;
+    overflow: hidden;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin: 0 0 0 -5px;
+
+}
+
+#inner {
+    
+    border-top-width: 0;
+    bottom: 0;
+    height: 0%;
+    
+
+}
+
+#inner div {
+    border: 2px solid green;
+    border-bottom-width: 0;
+   
+
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+#value {
+  text-align:center;
+  color:white;
+  opacity:0.0;
+  position:absolute;
+  width: 100%;
+}
+
+#overlay{
+	background-color:grey;
+	opacity:0.0;
+	width:100%;
+	height:100%;
+	position:absolute;
+
+}
+
+#answertext{
+	
+	position:absolute;
+	z-index:10;
+	opacity:1.0 !important;
+	width: 100%;
+    text-align: center;
+    top:45%;
+}
+
+#answerboxdiv{
+	
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+
